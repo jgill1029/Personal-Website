@@ -1,12 +1,13 @@
 import "./App.css";
 import StickyLayout from "./components/StickyLayout";
-import About from "./components/About";
+import CursorGlow from "./components/CursorGlow";
 
 function App() {
   return (
-    <div>
-      <StickyLayout children={<About />}></StickyLayout>
-    </div>
+    <>
+      <StickyLayout />
+      <CursorGlow />
+    </>
   );
 }
 

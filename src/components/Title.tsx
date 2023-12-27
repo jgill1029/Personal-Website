@@ -1,9 +1,8 @@
 import { Flex, Heading, Text, VStack } from "@chakra-ui/react";
-import React from "react";
 
 const Title = () => {
   return (
-    <Flex>
+    <Flex mb="10vh">
       <VStack align={"right"} spacing={5}>
         <Heading as="h1" size="2xl">
           Jagdeep Gill

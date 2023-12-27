@@ -1,9 +1,8 @@
 import { List, ListItem } from "@chakra-ui/react";
-import React from "react";
 
 const Navigation = () => {
   return (
-    <List>
+    <List mb="30vh" spacing={2}>
       <li>About</li>
       <ListItem>Projects</ListItem>
       <ListItem>Experience</ListItem>
