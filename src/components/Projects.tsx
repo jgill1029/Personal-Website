@@ -28,6 +28,24 @@ const Projects = () => {
       languages: ["TypeScript", "React", "Netlify"],
       link: "https://github.com/jgill1029/Personal-Website",
     },
+    {
+      name: "Jagdeepgill.com",
+      description: "Description",
+      languages: ["TypeScript", "React", "Netlify"],
+      link: "https://github.com/jgill1029/Personal-Website",
+    },
+    {
+      name: "Jagdeepgill.com",
+      description: "Description",
+      languages: ["TypeScript", "React", "Netlify"],
+      link: "https://github.com/jgill1029/Personal-Website",
+    },
+    {
+      name: "Jagdeepgill.com",
+      description: "Description",
+      languages: ["TypeScript", "React", "Netlify"],
+      link: "https://github.com/jgill1029/Personal-Website",
+    },
   ];
   return (
     <Box mx={4}>
