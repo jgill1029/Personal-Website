@@ -1,8 +1,8 @@
-import { Box } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box mb={6} mx={8}>
+    <Text mb="10vh" mx="2vw">
       With a robust background in React and TypeScript development, I have
       successfully delivered cutting-edge web solutions that seamlessly blend
       functionality and aesthetics. From architecting and implementing
@@ -15,7 +15,7 @@ const About = () => {
       delivering high-quality, performance-optimized applications. Ready to
       tackle new challenges, I am excited about the opportunity to contribute my
       skills and passion for web development to future projects.
-    </Box>
+    </Text>
   );
 };
 

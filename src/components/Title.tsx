@@ -2,13 +2,13 @@ import { Flex, Heading, Text, VStack } from "@chakra-ui/react";
 
 const Title = () => {
   return (
-    <Flex mb="10vh">
+    <Flex height="30vh">
       <VStack align={"right"} spacing={5}>
         <Heading as="h1" size="2xl">
           Jagdeep Gill
         </Heading>
         <Heading as="h2" size="md">
-          Front-End Engineer
+          Software Engineer
         </Heading>
         <Text>
           Hey there! I'm Jagdeep Gill, a passionate front-end engineer with a

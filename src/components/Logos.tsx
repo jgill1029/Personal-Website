@@ -4,21 +4,21 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Logos = () => {
   return (
-    <HStack spacing={4}>
+    <HStack spacing={4} height="10vh">
       <a
-        href="https://github.com/jgill1029/" // Replace with the actual URL
-        target="_blank" // Open link in a new tab
-        rel="noopener noreferrer" // Security best practice for opening links in new tabs
-        style={{ textDecoration: "none", color: "inherit" }} // Optional: styling for the link
+        href="https://github.com/jgill1029/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none", color: "inherit" }}
       >
         <FaGithub size="25" style={{ opacity: 0.75 }} />
       </a>
 
       <a
-        href="https://www.linkedin.com/in/jagdeep-gill/" // Replace with the actual URL
-        target="_blank" // Open link in a new tab
-        rel="noopener noreferrer" // Security best practice for opening links in new tabs
-        style={{ textDecoration: "none", color: "inherit" }} // Optional: styling for the link
+        href="https://www.linkedin.com/in/jagdeep-gill/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none", color: "inherit" }}
       >
         <FaLinkedin size="25" style={{ opacity: 0.75 }} />
       </a>
