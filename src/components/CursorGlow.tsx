@@ -1,11 +1,7 @@
 // CursorGlow.js
 import React, { useState, useEffect } from "react";
 
-interface CursorGlowProps {
-  // Add any additional props here if needed
-}
-
-const CursorGlow: React.FC<CursorGlowProps> = () => {
+const CursorGlow = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {

@@ -20,13 +20,13 @@ const ExperienceCard = ({ job }: Props) => {
     >
       <HStack align="left">
         <Text width="25%" mr="1vw">
-          Jan - June 2023
+          {job.time}
         </Text>
         <VStack align="left" width="100%" flex="1">
           <Heading as="h2" size="md" fontWeight="bold">
             {job.role} • {job.company}
           </Heading>
-          <Text>description</Text>
+          <Text>{job.description}</Text>
         </VStack>
       </HStack>
     </Box>

@@ -10,7 +10,7 @@ const Title = () => {
         <Heading as="h2" size="md">
           Software Engineer
         </Heading>
-        <Text>
+        <Text width="100%">
           Hey there! I'm Jagdeep Gill, a passionate front-end engineer with a
           knack for turning ideas into interactive and visually stunning digital
           experiences. I thrive on bringing design concepts to life through

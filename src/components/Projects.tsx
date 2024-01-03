@@ -34,11 +34,13 @@ const Projects = () => {
     },
   ];
   return (
-    <Box mx="1vw" mb="10vh">
-      {projects.map((project) => (
-        <ProjectCard key={project.name} project={project} />
-      ))}
-    </Box>
+    <div className="section" id="projects">
+      <Box mx="1vw" mb="10vh">
+        {projects.map((project) => (
+          <ProjectCard key={project.name} project={project} />
+        ))}
+      </Box>
+    </div>
   );
 };
 
