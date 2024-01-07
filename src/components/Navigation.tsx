@@ -1,11 +1,13 @@
 import { Box, List, ListItem } from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
 import NavigationLine from "./NavigationLine";
-import { useState } from "react";
 
-const Navigation = () => {
-  const [selectedNav, setSelectedNav] = useState("about");
+interface Props {
+  onSelectedNav: (selected: string) => void;
+  selectedNav: string;
+}
 
+const Navigation = ({ selectedNav }: Props) => {
   return (
     <List height="40vh" spacing={2}>
       <ListItem>
@@ -16,11 +18,7 @@ const Navigation = () => {
           spy={true}
           offset={-70}
         >
-          <NavigationLine
-            selectedNav={selectedNav}
-            onSelectedNav={(selected) => setSelectedNav(selected)}
-            id="about"
-          >
+          <NavigationLine selectedNav={selectedNav} id="about">
             <Box
               ml={selectedNav === "about" ? "12%" : "7%"}
               transition="margin-left 0.3s ease-in-out"
@@ -41,11 +39,7 @@ const Navigation = () => {
           spy={true}
           offset={-70}
         >
-          <NavigationLine
-            selectedNav={selectedNav}
-            onSelectedNav={(selected) => setSelectedNav(selected)}
-            id="projects"
-          >
+          <NavigationLine selectedNav={selectedNav} id="projects">
             <Box
               ml={selectedNav === "projects" ? "12%" : "7%"}
               transition="margin-left 0.3s ease-in-out"
@@ -69,11 +63,7 @@ const Navigation = () => {
           spy={true}
           offset={-70}
         >
-          <NavigationLine
-            selectedNav={selectedNav}
-            onSelectedNav={(selected) => setSelectedNav(selected)}
-            id="experience"
-          >
+          <NavigationLine selectedNav={selectedNav} id="experience">
             <Box
               ml={selectedNav === "experience" ? "12%" : "7%"}
               transition="margin-left 0.3s ease-in-out"
@@ -83,7 +73,7 @@ const Navigation = () => {
                   : "rgba(255, 255, 255, 0.6)"
               }
             >
-              Expereince
+              Experience
             </Box>
           </NavigationLine>
         </ScrollLink>

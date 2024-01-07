@@ -3,21 +3,14 @@ import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
-  onSelectedNav: (selected: string) => void;
   selectedNav: string;
   id: string;
 }
 
-const NavigationLine = ({
-  children,
-  onSelectedNav,
-  selectedNav,
-  id,
-}: Props) => {
+const NavigationLine = ({ children, selectedNav, id }: Props) => {
   const isSelected = selectedNav === id;
   return (
     <Box
-      onClick={() => onSelectedNav(id)}
       position="relative"
       display="flex"
       alignItems="center"

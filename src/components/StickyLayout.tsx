@@ -6,9 +6,11 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Resume from "./Resume";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const StickyLayout = () => {
+  const [selectedNav, setSelectedNav] = useState("about");
+
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll(".section");
@@ -24,6 +26,7 @@ const StickyLayout = () => {
 
       if (window.location.hash !== currentSection) {
         window.history.replaceState(null, "", currentSection);
+        setSelectedNav(currentSection.substring(1));
       }
     };
 
@@ -46,7 +49,10 @@ const StickyLayout = () => {
             width="32.5vw"
           >
             <Title />
-            <Navigation />
+            <Navigation
+              selectedNav={selectedNav}
+              onSelectedNav={setSelectedNav}
+            />
             <Logos />
           </Box>
         </Box>
