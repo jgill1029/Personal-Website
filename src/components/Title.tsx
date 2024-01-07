@@ -11,10 +11,7 @@ const Title = () => {
           Software Engineer
         </Heading>
         <Text width="100%">
-          Hey there! I'm Jagdeep Gill, a passionate software engineer with a
-          knack for turning ideas into interactive and visually stunning digital
-          experiences. I thrive on bringing design concepts to life through
-          clean and efficient code.
+          Crafting Digital Experiences, One Line of Code at a Time.
         </Text>
       </VStack>
     </Flex>

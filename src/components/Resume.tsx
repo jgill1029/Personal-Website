@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <Box mx="2vw">
       <Link href={pdfPath} target="_blank" rel="noopener noreferrer">
-        View Full Reseme...
+        View Full Resume...
       </Link>
     </Box>
   );

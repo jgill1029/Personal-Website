@@ -40,8 +40,8 @@ const ProjectCard = ({ project }: Props) => {
           {imageSrc && (
             <Image
               border="rgba(226,232,240,.1)"
-              width="25%"
-              height="18%"
+              width="20%"
+              height="14%"
               src={imageSrc}
               alt={project.image}
               objectFit="contain"

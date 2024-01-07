@@ -19,7 +19,7 @@ const ExperienceCard = ({ job }: Props) => {
       p="1vw"
     >
       <HStack align="left">
-        <Text width="25%" mr="1vw">
+        <Text width="20%" mr="1vw" fontSize="sm">
           {job.time}
         </Text>
         <VStack align="left" width="100%" flex="1">

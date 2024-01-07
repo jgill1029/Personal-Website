@@ -1,47 +1,25 @@
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
     <div className="section" id="about">
-      <Text mb="10vh" mx="2vw">
-        With a robust background in React and TypeScript development, I have
-        successfully delivered cutting-edge web solutions that seamlessly blend
-        functionality and aesthetics. From architecting and implementing
-        feature-rich e-commerce platforms to enhancing data visualization
-        dashboards, my expertise lies in creating dynamic, user-centric
-        interfaces. Leveraging TypeScript for its power in enhancing code
-        quality, I bring a meticulous approach to development, ensuring
-        scalability and maintainability. My portfolio showcases a commitment to
-        innovation, with contributions to open-source projects and a proven
-        track record of delivering high-quality, performance-optimized
-        applications. Ready to tackle new challenges, I am excited about the
-        opportunity to contribute my skills and passion for web development to
-        future projects. With a robust background in React and TypeScript
-        development, I have successfully delivered cutting-edge web solutions
-        that seamlessly blend functionality and aesthetics. From architecting
-        and implementing feature-rich e-commerce platforms to enhancing data
-        visualization dashboards, my expertise lies in creating dynamic,
-        user-centric interfaces. Leveraging TypeScript for its power in
-        enhancing code quality, I bring a meticulous approach to development,
-        ensuring scalability and maintainability. My portfolio showcases a
-        commitment to innovation, with contributions to open-source projects and
-        a proven track record of delivering high-quality, performance-optimized
-        applications. Ready to tackle new challenges, I am excited about the
-        opportunity to contribute my skills and passion for web development to
-        future projects. With a robust background in React and TypeScript
-        development, I have successfully delivered cutting-edge web solutions
-        that seamlessly blend functionality and aesthetics. From architecting
-        and implementing feature-rich e-commerce platforms to enhancing data
-        visualization dashboards, my expertise lies in creating dynamic,
-        user-centric interfaces. Leveraging TypeScript for its power in
-        enhancing code quality, I bring a meticulous approach to development,
-        ensuring scalability and maintainability. My portfolio showcases a
-        commitment to innovation, with contributions to open-source projects and
-        a proven track record of delivering high-quality, performance-optimized
-        applications. Ready to tackle new challenges, I am excited about the
-        opportunity to contribute my skills and passion for web development to
-        future projects.
-      </Text>
+      <Box mx="2vw">
+        <Text mb="2vh">
+          Hey there! I'm Jagdeep Gill, a passionate software engineer with a
+          knack for turning ideas into interactive and visually stunning digital
+          experiences. I thrive on bringing design concepts to life through
+          clean and efficient code. With a foundation built on continuous
+          learning and a genuine passion for the craft, I am dedicated to
+          pushing the boundaries of what's possible in the ever-evolving world
+          of technology.
+        </Text>
+        <Text mb="15vh">
+          Outside of coding, my passions span a diverse spectrum, anchored by a
+          love for music across various genres that enrich my daily experiences.
+          From the soulful rhythms of R&B to the eclectic melodies of different
+          genres, music serves as a constant companion.
+        </Text>
+      </Box>
     </div>
   );
 };

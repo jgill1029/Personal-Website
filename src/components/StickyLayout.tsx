@@ -19,7 +19,7 @@ const StickyLayout = () => {
 
       sections.forEach((section) => {
         const sectionTop = section.getBoundingClientRect().top;
-        if (sectionTop <= window.innerHeight / 2) {
+        if (sectionTop <= window.innerHeight * 0.25) {
           currentSection = `#${section.id}`;
         }
       });
@@ -40,7 +40,7 @@ const StickyLayout = () => {
   return (
     <Box overflowY="auto">
       <Flex px="15vw" py="10vh">
-        <Box width="32.5vw" mr="5vw">
+        <Box width="33.75vw" mr="2.5vw">
           <Box
             position="fixed"
             top="10vh"
@@ -57,7 +57,7 @@ const StickyLayout = () => {
           </Box>
         </Box>
 
-        <Box flex="1" overflow="auto" width="32.5vw" id="main">
+        <Box flex="1" overflow="auto" width="33.75vw" id="main">
           <About />
           <Projects />
           <Experience />

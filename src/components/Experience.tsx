@@ -11,22 +11,25 @@ export interface Job {
 const Experience = () => {
   const experiences = [
     {
-      time: "July 2023 - Present",
+      time: "2023 - Present",
       role: "Technology Advisory",
       company: "Protiviti",
-      description: "Description",
+      description:
+        "Spearhead comprehensive cybersecurity maturity assessments using the NIST Cybersecurity Framework, pinpointing areas for improvement, and conducting detailed internal audit testing on over 20 General IT Controls (GITC) to ensure Sarbanes-Oxley (SOX) compliance.",
     },
     {
-      time: "Sept 2022 - Mar 2023",
+      time: "2022 - 2023",
       role: "Enterprise Business Applications Intern",
       company: "BDO Digital",
-      description: "Description",
+      description:
+        "Revamped project management efficiency by developing and implementing standardized templates, processes, and documentation for client projects.",
     },
     {
-      time: "Sept 2020 - Jan 2021",
+      time: "2020 - 2021",
       role: "Digital Intern",
       company: "Kelley School of Business",
-      description: "Description",
+      description:
+        "Engineered and implemented websites, application frameworks, and digital storefronts for 7 small businesses affected by the COVID-19 pandemic, significantly enhancing their online presence.",
     },
   ];
 
