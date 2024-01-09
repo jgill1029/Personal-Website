@@ -15,7 +15,7 @@ const Projects = () => {
       name: "Nichify",
       image: "Nichify_Screenshot",
       description:
-        "A music exploration tool that assesses the uniqueness of your Spotify listening, providing personalized recommendations to diversify your music taste by suggesting niche tracks aligned with your current favorites or preferred genres, broadening your taste beyond mainstream selections",
+        "A music exploration tool that assesses the uniqueness of your Spotify listening, providing personalized recommendations to diversify your music taste by suggesting niche tracks aligned with your current favorites or preferred genres, broadening your taste beyond mainstream selections.",
       languages: ["TypeScript", "React", "Spotify API"],
       link: "https://github.com/jgill1029/Nichify",
     },
@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       name: "Jagdeepgill.com",
-      image: "Game_Hub_Screenshot",
+      image: "Portfolio_Site_Screenshot",
       description:
         "A showcase of my software engineering endeavors, featuring hands-on projects, impactful experiences, and a glimpse into my passion for innovation and problem-solving.",
       languages: ["TypeScript", "React", "Netlify"],

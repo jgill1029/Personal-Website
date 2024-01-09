@@ -1,11 +1,10 @@
 import { Box, Link } from "@chakra-ui/react";
+import ResumeJagdeepGill from "../assets/ResumeJagdeepGill.pdf";
 
 const Resume = () => {
-  const pdfPath = "../assets/example.pdf";
-
   return (
     <Box mx="2vw">
-      <Link href={pdfPath} target="_blank" rel="noopener noreferrer">
+      <Link href={ResumeJagdeepGill} target="_blank" rel="noopener noreferrer">
         View Full Resume...
       </Link>
     </Box>

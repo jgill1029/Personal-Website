@@ -39,7 +39,7 @@ const ProjectCard = ({ project }: Props) => {
         <HStack align="left">
           {imageSrc && (
             <Image
-              border="rgba(226,232,240,.1)"
+              border="1px solid rgba(255, 255, 255, 0.2)"
               width="20%"
               height="14%"
               src={imageSrc}
