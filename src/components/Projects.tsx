@@ -28,7 +28,7 @@ const Projects = () => {
       link: "https://github.com/jgill1029/game-hub",
     },
     {
-      name: "Jagdeepgill.com",
+      name: "Jagdeepgill.dev",
       image: "Portfolio_Site_Screenshot",
       description:
         "A showcase of my software engineering endeavors, featuring hands-on projects, impactful experiences, and a glimpse into my passion for innovation and problem-solving.",
